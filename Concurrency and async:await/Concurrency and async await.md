@@ -11,21 +11,25 @@
 
 `동시성과 병령성`은 유사한것 같지만 다른 개념이다. 이 둘의 차이를 알기 위해 햄버거를 사는 과정으로 알아보자.
 
-![Untitled](Concurrency%20and%20async%20await%20f88a711a809d4c21b9bbdf4705ab6f62/Untitled.png)
+![Untitled](https://github.com/dongjun-Yi/fastapi-study/assets/90665186/ff99fa0e-cc5b-40d1-ad55-08bcda0f9a20)
+
 
 손님은 햄버거를 사려고 카운터에 주문한 다음 손님들은 자리를 고르고 얘기를 하며 다른 일을 할 수 있다. 그리고 주문이 나오게 되면 그때 햄버거를 가지고 와 먹을 수 있다.
 
-![Untitled](Concurrency%20and%20async%20await%20f88a711a809d4c21b9bbdf4705ab6f62/Untitled%201.png)
+![Untitled 1](https://github.com/dongjun-Yi/fastapi-study/assets/90665186/ba939eb0-971c-41eb-a217-b40c9a68d6af)
+
 
 위의 과정이 `동시성에 대한 예시`이다. 햄버거를 조리하는 동안 손님들은 다른 작업을 수행하고 햄버거가 완성되면 그때 맞춰서 작업을 하여 기다리는 작업이 있으면 다른 일을 수행하는 것이다.
 
-![Untitled](Concurrency%20and%20async%20await%20f88a711a809d4c21b9bbdf4705ab6f62/Untitled%202.png)
+![Untitled 2](https://github.com/dongjun-Yi/fastapi-study/assets/90665186/2477a199-abdf-4f6b-bc3b-f299a32c3fff)
+
 
 이번에는 `병령성에 대한 예시`이다. 병렬성은 먼저 카운터에 여러명이 존재하고 햄버거를 주문하게 되면 그 자리에서 계속 기다린다.
 
-![Untitled](Concurrency%20and%20async%20await%20f88a711a809d4c21b9bbdf4705ab6f62/Untitled%203.png)
+![Untitled 3](https://github.com/dongjun-Yi/fastapi-study/assets/90665186/5f21ded5-1c0e-4094-a97f-c68b6bd5a34b)
 
-![Untitled](Concurrency%20and%20async%20await%20f88a711a809d4c21b9bbdf4705ab6f62/Untitled%204.png)
+![Untitled 4](https://github.com/dongjun-Yi/fastapi-study/assets/90665186/c8832067-5578-467c-90a3-f1579a2b4c48)
+
 
 기다린 후 햄버거가 완성되면 햄버거를 받고 그제서야 먹을 수 있게 된다. 이것이 병렬성에 대한 예시이며, 한 작업에 대해 기다리는 작업이 있으면 다른일을 하는 것이 아닌 작업이 끝날때까지 기다리는 작업을 말한다.
 
