@@ -22,7 +22,7 @@ async def create_item(item: Item):
 위의 `Item` 클래스는 `BaseModel`을 상속받아 구현하였고, 이때 타입힌트를 통해 필수 인자로 `name, description, price, tax` 모두 지정한 것을 확인할 수 있다.
 또한 경로 수행 함수에서는 매개변수로 `Item` 타입의 변수를 받아 메세지 Body 데이터를 확인할 수 있다.
 
-![Untitled](Request%20Body%209733a4e7e9944ec6af42d5b3327612bf/Untitled.png)
+<img width="755" alt="Untitled" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/9e8a7f2a-2b7d-4ef2-b2d0-fe0aca011c36">
 
 ### **Request body + path + query parameters examples**
 
