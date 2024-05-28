@@ -75,7 +75,8 @@ async def update_item(
     return results
 ```
 
-![Untitled](Declare%20Request%20Example%20Data%20d6f1843c39f74941a4a11aa8211e7979/Untitled.png)
+<img width="1444" alt="Untitled" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/4a84284c-db8c-4967-bd01-a021daf7e8f3">
+
 
 ## **OpenAPI-specific examples**
 
@@ -138,4 +139,4 @@ async def update_item(
 
 **Request Examples on Swagger**
 
-![Untitled](Declare%20Request%20Example%20Data%20d6f1843c39f74941a4a11aa8211e7979/Untitled%201.png)
+<img width="1421" alt="Untitled 1" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/a53e0ec1-1603-49c8-8b95-371fa64a1bd1">
