@@ -26,9 +26,11 @@ async def update_item(item_id: int, item: Item, user: User):
     return results
 ```
 
-![Untitled](Body%20-%20Multiple%20Parameters%20020ec320ba2b452f9626220fba5f7e09/Untitled.png)
+<img width="743" alt="Untitled" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/a03afa73-e3d5-4ff6-be5f-d70e4077c348">
 
-![Untitled](Body%20-%20Multiple%20Parameters%20020ec320ba2b452f9626220fba5f7e09/Untitled%201.png)
+
+<img width="762" alt="Untitled 1" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/cbc262d1-c23a-46d6-8c54-7ef6ad6e2972">
+
 
 ### **Embed a single body parameter**
 
