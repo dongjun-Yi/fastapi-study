@@ -23,9 +23,10 @@ async def update_item(item_id: int, item: Item):
     return results
 ```
 
-![Untitled](Body%20-%20Nested%20Models%2020d4707f88114df5a258d6c1d4fe3504/Untitled.png)
+<img width="758" alt="Untitled" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/b961be66-a23c-4382-9c1e-51aeccdcd3cc">
 
-![Untitled](Body%20-%20Nested%20Models%2020d4707f88114df5a258d6c1d4fe3504/Untitled%201.png)
+<img width="757" alt="Untitled 1" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/a14c4ce2-13cd-439e-829a-83b8dd3432f1">
+
 
 ### **Define a submodel**
 
