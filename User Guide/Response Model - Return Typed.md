@@ -31,11 +31,13 @@ async def read_items() -> list[Item]:
 
 **POST /items**
 
-![Untitled](Response%20Model%20-%20Return%20Typed%202d4dbb1ef34e46bf94727fb07c1d746f/Untitled.png)
+<img width="757" alt="Untitled" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/a33d7b35-03ab-49be-9236-f838e77209c7">
+
 
 **GET /items**
 
-![Untitled](Response%20Model%20-%20Return%20Typed%202d4dbb1ef34e46bf94727fb07c1d746f/Untitled%201.png)
+<img width="757" alt="Untitled 1" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/404c1760-787c-4850-aa71-e5a06eb9dd96">
+
 
 타입 힌트 대신 `response_model`로 타입을 명시할 수 있다.
 
@@ -95,7 +97,8 @@ async def create_user(user: UserIn) -> BaseUser:
 
 Input 데이터 모델로는 `password` 속성만 존재하고 `BaseUser`를 상속받은 `UserIn` 타입으로 받고, 응답할 때는 비밀번호를 제외한 `BaseUser` 타입의 객체를 반환하여 보안상의 이슈를 해결할 수 있다.
 
-![Untitled](Response%20Model%20-%20Return%20Typed%202d4dbb1ef34e46bf94727fb07c1d746f/Untitled%202.png)
+<img width="755" alt="Untitled 2" src="https://github.com/dongjun-Yi/fastapi-study/assets/90665186/17bde236-0816-4852-b580-9ba8b29dbf88">
+
 
 ### **Return a Response Directly**
 
